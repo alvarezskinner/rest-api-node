@@ -4,7 +4,10 @@
   "description": "This is the respository to support my blog series on REST APIs with Node and Express",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "build": "babel src --out-dir dist",
+    "dev": "nodemon --exec npm run restart",
+    "restart": "rm -rf dist && npm run build && npm run start",
+    "start": "node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,7 @@
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
     "@babel/node": "^7.8.7",
-    "@babel/preset-env": "^7.9.0"
+    "@babel/preset-env": "^7.9.0",
+    "nodemon": "^2.0.2"
   }
 }

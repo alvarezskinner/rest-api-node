@@ -1,0 +1,10 @@
+{
+  "ignore": [".git", "dist"],
+  "verbose": true,
+  "execMap": {
+    "js": "node"
+  },
+  "runOnChangeOnly": false,
+  "watch": ["src"],
+  "ext": "js"
+}
