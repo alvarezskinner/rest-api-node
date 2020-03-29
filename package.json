@@ -4,7 +4,7 @@
   "description": "This is the respository to support my blog series on REST APIs with Node and Express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
