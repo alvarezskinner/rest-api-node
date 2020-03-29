@@ -1,0 +1,20 @@
+{
+  "name": "rest-api-node",
+  "version": "1.0.0",
+  "description": "This is the respository to support my blog series on REST APIs with Node and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvarezskinner/rest-api-node.git"
+  },
+  "keywords": [],
+  "author": "Andres Alvarez Skinner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvarezskinner/rest-api-node/issues"
+  },
+  "homepage": "https://github.com/alvarezskinner/rest-api-node#readme"
+}
