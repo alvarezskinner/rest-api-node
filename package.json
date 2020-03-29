@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/alvarezskinner/rest-api-node/issues"
   },
-  "homepage": "https://github.com/alvarezskinner/rest-api-node#readme"
+  "homepage": "https://github.com/alvarezskinner/rest-api-node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
